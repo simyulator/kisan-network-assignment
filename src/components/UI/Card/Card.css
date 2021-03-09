@@ -1,0 +1,39 @@
+.card-div {
+  border: solid;
+  width: 370px;
+  border-color: gainsboro;
+  border-width: 1px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: lightgrey;
+}
+
+.card-img {
+  object-fit: cover;
+  width: 370px;
+  height: 130px;
+}
+
+.card-heading {
+  color: #1cc7b7;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.card-data {
+  padding: 20px;
+  color: grey;
+}
+
+@media (max-width: 1000px) {
+  .cards-div {
+    justify-content: center;
+  }
+  .card-div {
+    margin: 15px;
+  }
+  .card-heading {
+    padding-left: 20px;
+  }
+}

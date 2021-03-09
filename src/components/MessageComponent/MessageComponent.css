@@ -1,0 +1,92 @@
+.message-component {
+  /* float: right; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: lightgrey;
+  border-width: 1px;
+  width: 250px;
+}
+.first-section {
+  background-color: #e9e7e8;
+}
+.second-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #d7d3d2;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.third-section {
+  background-color: #e9e7e8;
+}
+
+.third-section img {
+  width: 250px;
+  cursor: pointer;
+}
+
+.address-div {
+  padding: 15px;
+}
+.section-heading {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contact-details-div {
+  padding: 15px;
+}
+
+.message-input {
+  height: 30px;
+  width: 200px;
+  border: grey;
+  border-radius: 5px;
+}
+
+.message-input-label {
+  color: grey;
+  text-align: left;
+  font-size: small;
+  padding-bottom: 3px;
+}
+
+.message-area {
+  height: 150px;
+  width: 200px;
+  border: grey;
+  border-radius: 5px;
+}
+
+.send-button {
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  background-color: #19bdb2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+  .message-component {
+    width: 80vw;
+  }
+  .message-area {
+    width: 70vw;
+  }
+  .message-input {
+    width: 70vw;
+  }
+  .third-section img {
+    width: 80vw;
+  }
+}

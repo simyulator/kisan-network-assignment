@@ -1,0 +1,43 @@
+.submenu {
+  /* float: right; */
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: lightgrey;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.submenu-heading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.submenu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  padding: 0 15px;
+}
+
+.submenu-list li {
+  padding: 5px;
+  cursor: pointer;
+  color: #1ed6ca;
+}
+
+.submenu-list li:hover {
+  background-color: #1ed6ca;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .submenu {
+    width: 80vw;
+  }
+}

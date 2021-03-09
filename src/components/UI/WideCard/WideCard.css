@@ -1,0 +1,29 @@
+.wide-card {
+  display: flex;
+  padding: 20px 0;
+}
+
+.wide-data-div {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.wide-heading {
+  color: #1cc7b7;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.wide-img-div img {
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+}
+
+@media (max-width: 1000px) {
+  .wide-card {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}

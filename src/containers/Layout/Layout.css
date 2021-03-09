@@ -1,0 +1,74 @@
+.layout {
+  /* padding: 0 250px; */
+}
+
+.toolbar-div {
+  /* background-color: #28373e;
+  padding: 0 250px; */
+}
+
+.hero-section {
+  background-color: #8198a0;
+  padding: 0 15vw;
+}
+
+.body-section {
+  padding: 2vw 15vw;
+}
+
+/* .reading-data-section {
+  padding: 0 350px;
+}
+
+.wide-cards-section {
+  padding: 0 350px;
+} */
+
+.cards-section {
+  padding: 0 15vw;
+}
+
+.cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  padding: 0 15vw;
+  background-color: #28373e;
+}
+
+.right-side-content {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.data-container {
+  width: 45vw;
+}
+
+@media (max-width: 1000px) {
+  .cards-section {
+    flex-direction: column;
+    padding: 0;
+  }
+  .hero-section {
+    padding: 0;
+    justify-content: center;
+  }
+  .body-section {
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .data-container {
+    width: auto;
+  }
+  .right-side-content {
+    justify-content: center;
+    align-items: center;
+  }
+}

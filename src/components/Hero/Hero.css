@@ -1,0 +1,22 @@
+.hero-heading-div {
+  width: 40vw;
+  padding: 90px 0;
+}
+
+.hero-heading {
+  text-align: left;
+  /* display: flex; */
+  background-color: #edac56;
+  font-size: 35px;
+  color: white;
+  /* padding: 10px; */
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .hero-heading-div {
+    flex-direction: column;
+    margin: 0 10vw;
+    width: auto;
+  }
+}
